@@ -1,6 +1,6 @@
 # Dan-Anbrews
 This is a basic E-Commerce website which was used for a University Assignment. 
-The authors of the assignment are 
+The authors of the website are 
 - Matthew (myself)
 - [Cooper](https://github.com/Nitr0f0x)
 - [James](https://github.com/JamesIde)
