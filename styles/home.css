@@ -1,0 +1,182 @@
+* {
+    font-family: monospace, Helvetica, sans-serif;
+}
+
+.TopMenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ul{
+    background-color: aquamarine;
+    height: 50px; 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    list-style: none;
+    float: left;
+}
+
+
+ .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px; 
+    text-decoration: none;
+    display: block;
+    text-align: left
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: rgb(96, 235, 188);
+  }
+
+
+
+#title{
+    margin-right: auto;
+}
+
+#checkoutButton{
+    margin-left: auto;
+}
+
+#textarea{
+    width: 320px;
+    margin-right: 20px;
+    border: 1px solid #dddddd;
+    box-sizing: border-box;
+    font-family: monospace, Helvetica, sans-serif;
+}
+
+h1{
+    font-family: monospace, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #000;
+}
+
+#cartImg{
+    height: 70px;
+    width: 70px;
+}
+
+#danImg{
+    height: 120px;
+    width: 120px;
+    padding-right: 20px;
+}
+
+
+#submitButton{
+font-weight: bold;
+text-transform: uppercase;
+background-color: aquamarine;
+color: #000000;
+border: none;
+padding: 10px 25px;
+}
+
+#submitButton:hover{
+    background-color: rgb(143, 226, 198);
+}
+
+
+.returnCategory a{
+    font-size: 20px !important;
+    padding-left: 85px;
+    text-decoration: none !important;
+}
+
+.returnCategory a:hover{
+    color: aqua;
+}
+
+#productCategory{
+    padding-left: 85px;
+
+}
+
+.listCategory a {
+    text-decoration: none;
+    font-size: 35px;
+    padding-left: 850px;
+    position: relative;
+}
+
+.listCategory a:hover{
+    color: aqua;
+}
+
+.listCategory ul {
+    padding-top: 50px;
+}
+
+
+  .image-row img{
+    width: 250px;
+    height:250px;
+    object-fit:scale-down;
+    display: block;
+    margin: 0 auto;
+ }
+
+ .image-row h1{
+    margin-left: 760px;
+    padding-top: 50px;
+ }
+
+ .image-column {
+    margin-left: 290px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 55px;
+    width:450px;
+    height:300px;
+  }
+  
+  .image-grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    width:350px;
+    height:350px;
+  }
+
+  .image-grid-item a{
+      text-decoration: none;
+      color: rgb(68, 145, 120);
+  }
+
+  
+/* checkout page styling */
